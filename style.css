@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: #C4C4C4;
+}
+
+h3 {
+	font-size: 51.66px;
+}
+
+body {
+	background-color: #1E1E1E;
+	font-family: "Urbanist", sans-serif;
+}
+
+.diat_plan header {
+	background-color: #161921;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.diat_plan .header_text {
+	font-size: 25px;
+}
+
+.diat_plan .app-button {
+	border: 1px solid white;
+	color: white;
+	border-radius: 25px;
+	background: transparent;
+	width: 115px;
+	height: 30px;
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.diat_plan .img-fluid {
+	width: 100%;
+	height: auto;
+}
+
+.diat_plan .hero-section {
+	background-image: url('images/bg_img1.png');
+	color: #fff;
+	padding: 50px 0px 0px 0px;
+	margin-top: -5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.diat_plan .hero-content {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.diat_plan .hero-content h2 {
+	font-size: 51.66px;
+	font-weight: 400;
+}
+
+.diat_plan .hero-content h2 span {
+	font-weight: bold;
+}
+
+.diat_plan .hero-content strong,
+.diat_plan .section_4 strong {
+	color: #9DE6FF;
+}
+
+.diat_plan .muscle {
+	position: absolute;
+	top: 95px;
+}
+
+.diat_plan .tyroid,
+.diat_plan .pcod {
+	margin-top: -8px;
+}
+
+.diat_plan .hero_list {
+	margin-top: 30px;
+}
+
+.diat_plan .hero_list li {
+	margin: 0px 0px 10px 0px;
+	font-size: 20px;
+}
+
+.diat_plan .join-now-btn {
+	background-color: #0021F4;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 25px;
+	padding: 10px 40px;
+	text-decoration: none;
+	margin-top: 30px;
+	font-weight: 600;
+}
+
+.diat_plan .countdown {
+	margin: auto;
+}
+
+.diat_plan .countdown-timer {
+	background-color: #333;
+	color: white;
+	padding: 20px 90px;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+.diat_plan .countdown-timer h3 {
+	font-size: 2rem;
+	margin: 0;
+}
+
+.diat_plan .countdown-timer p {
+	font-size: 0.9rem;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.diat_plan .countdown-timer .time-unit {
+	display: inline-block;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.diat_plan .countdown-timer .separator {
+	font-size: 2rem;
+	margin-top: -28px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+.diat_plan .countdown-ends-in {
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+.diat_plan .divider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.diat_plan .divider:before,
+.diat_plan .divider:after {
+	content: '';
+	flex: 1;
+	width: 50px;
+	height: 1px;
+	background-color: #ccc;
+	margin: 0 10px;
+}
+
+.diat_plan .section_2 .sec2_image {
+	position: relative;
+}
+
+.diat_plan .section_2 .fruit {
+	position: absolute;
+	left: 160px;
+	top: 325px;
+	width: 50%;
+}
+
+.diat_plan .section_2 .sec2_text p {
+	font-size: 1.6rem;
+}
+
+.diat_plan .section_2 .sec2_text button {
+	padding: 0px 13px;
+	border-radius: 50px;
+	font-size: 18px;
+	width: 195px;
+	height: 45px;
+}
+
+.diat_plan .section_2 .delicious {
+	position: relative;
+}
+
+.diat_plan .section_2 .delicious span {
+	font-size: 48px;
+	color: #FFA9A9;
+}
+
+.diat_plan .section_2 .delicious img {
+	position: absolute;
+	left: -14px;
+	top: 0px;
+}
+
+.diat_plan .section_2 .sec2_btn {
+	background-color: #0021F4;
+	color: #fff;
+	border: none;
+	padding: 10px 70px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.diat_plan .section_2 .sec2_btn1 {
+	background-color: #fff;
+	color: #0021F4;
+	border: 1px solid #0021F4;
+	padding: 10px 70px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.diat_plan .container.section_3 {
+	width: 80%;
+}
+
+.diat_plan .section_3 .slick-gallery .box {
+	border-radius: 35px;
+	border: 1px solid #ddd;
+	height: auto;
+	text-align: center;
+	font-size: 1.5rem;
+	position: relative;
+}
+
+.slick-dots li button:before {
+	font-size: 80px;
+	height: 0px !important;
+	content: '' !important;
+	opacity: 1 !important;
+	border: 3px solid #0021F4;
+	color: #0021F4;
+	border-radius: 10px;
+	width: 25px !important;
+}
+
+.slick-dots li.slick-active button:before {
+	opacity: 1;
+	color: white;
+	border: 3px solid white;
+}
+
+.diat_plan .section_3 .slick-next:before {
+	font-family: inherit !important;
+	content: url('images/next.png') !important;
+}
+
+.diat_plan .section_3 .slick-prev:before {
+	content: url('images/pre.png') !important;
+}
+
+.diat_plan .section_3 .slick-track {
+	display: flex !important;
+	gap: 20px !important;
+}
+
+.diat_plan .section_3 .box_bg p,
+.diat_plan .section_3 .box_bg1 p,
+.diat_plan .section_3 .box_bg2 p,
+.diat_plan .section_3 .box_bg3 p,
+.diat_plan .section_3 .box_bg4 p,
+.diat_plan .section_3 .box_bg5 p {
+	margin: 0;
+}
+.diat_plan .section_3 .slider_main{
+	color: #747474;
+}
+.diat_plan .section_3 .more {
+	color: #0021F5;
+	font-size: 8px !important;
+	line-height: 30px;
+	font-weight: 600;
+}
+
+.diat_plan .section_3 .box_bg {
+	background: linear-gradient(to bottom, #AEF1F8, #fff);
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.diat_plan .section_3 .box_bg1 {
+	background: linear-gradient(to bottom, #E9FEA5, #fff);
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.diat_plan .section_3 .box_bg2 {
+	background: linear-gradient(to bottom, #FFD0A4, #fff);
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.diat_plan .section_3 .box_bg3 {
+	background: #F4F4F6;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.diat_plan .section_3 .box_bg4 {
+	background: linear-gradient(to bottom, #FDA2FF, #fff);
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.diat_plan .section_3 .box_bg5 {
+	background: linear-gradient(to bottom, #A8FFB0, #fff);
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.diat_plan .section_3 .sec3_text p {
+	font-size: 31.26px;
+}
+
+.diat_plan .section_3 .slider_text {
+	font-size: 12px !important;
+}
+
+.diat_plan .section_3 .slider_main {
+	font-size: 16px !important;
+}
+.diat_plan .section_3 .slider_text{
+	color: #747474;
+}
+.diat_plan .section_3 .slider_title {
+	font-size: 20px;
+	color: #000;
+	margin:5px 0px 0px;
+}
+
+.diat_plan .section_3 .slick-slide img {
+	height: auto;
+	width: 100%;
+}
+
+.diat_plan .section_4 .sec4_text p {
+	font-size: 31.26px;
+	color: #FD9DFF;
+}
+
+.diat_plan .section_4 .price_box {
+	background-color: #2E3034;
+	border-radius: 20px;
+	padding: 30px;
+	height: auto;
+}
+
+.diat_plan .section_4 .sec4_flex {
+	display: flex;
+	align-items: flex-start;
+}
+
+.diat_plan .section_4 .sec4_flex p {
+	margin: 0px 0px 25px 0px;
+	font-size: 1.5rem;
+}
+
+.diat_plan .section_4 .price_box h4,
+.diat_plan .section_4 .price_box2 h4 {
+	font-size: 2rem;
+}
+
+.diat_plan .section_4 .price_box h3,
+.diat_plan .section_4 .price_box2 h3 {
+	color: #3DE1A6;
+}
+
+.diat_plan .section_4 .price_box span,
+.diat_plan .section_4 .price_box2 span {
+	font-size: 1.1rem;
+	color: #fff;
+}
+
+.diat_plan .section_4 .strikethrough {
+	position: relative;
+	display: inline-block;
+	padding: 0.5em;
+	margin: 0;
+}
+
+.diat_plan .section_4 .strikethrough:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 50%;
+	width: 100%;
+	border-top: 2px solid #EFEFEF;
+	transform: rotate(340deg);
+	transform-origin: center;
+	z-index: 1;
+}
+
+.diat_plan .section_4 .price_box a {
+	margin-top: 220px;
+	border-radius: 50px;
+	background: #fff;
+	color: #0021F4;
+	border: none;
+	padding: 10px 160px;
+	text-decoration: none;
+}
+
+.diat_plan .section_4 .buy_now {
+	margin-top: 200px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.diat_plan .section_4 .price_box2 {
+	background-color: #2E3034;
+	border-radius: 20px;
+	padding: 30px;
+	height: auto;
+	border: 1px solid #FD9DFF;
+	padding-top: 70px;
+}
+
+.diat_plan .section_4 .price_box2 a {
+	margin-top: 50px;
+	border-radius: 50px;
+	background: #0021F4;
+	color: #fff;
+	border: none;
+	padding: 10px 160px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.diat_plan .section_4 .buy_now1 {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.diat_plan .section_4 .new {
+	background: linear-gradient(to right, #F03636 0%, #8A1F1F 100%);
+	width: 150px;
+	height: 54px;
+	border: none;
+	color: #fff;
+	position: absolute;
+	border-radius: 22px 0px 68px 0px;
+	font-size: 24px;
+}
+
+.diat_plan .section_5 .benefits_left {
+	color: #fff;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+.diat_plan .section_5 .benefits_left img {
+	width: 60px;
+}
+
+.diat_plan .section_5 .benefits_left h5 {
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.diat_plan .section_5 .benefits_right {
+	text-align: right;
+}
+
+.diat_plan .section_5 .coupen_code a {
+	color: #fff;
+	font-size: 31.26px;
+	text-decoration: none;
+}
+
+.diat_plan .section_6 {
+	background-color: #0B31FE;
+}
+
+.diat_plan .section_6 h4 {
+	font-size: 50px;
+}
+
+.diat_plan .section_6 p {
+	font-size: 28px;
+	font-weight: 100;
+	font-weight: 600;
+}
+
+.diat_plan .section_7 h2 {
+	font-size: 43px;
+	font-weight: 400;
+}
+
+.diat_plan .section_7 p {
+	font-size: 28px;
+	font-weight: 100;
+}
+
+.diat_plan .section_7 .btn-outline-dark {
+	border: none;
+}
+
+.diat_plan .section_7 .apps {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.diat_plan .section_7 .rating-box {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.diat_plan .section_7.section_7 .rating-box img {
+	width: 100%;
+}
+
+.diat_plan .section_8 {
+	font-family: "Urbanist", sans-serif;
+}
+
+.diat_plan .section_8 .see_all {
+	text-align: right;
+}
+
+.diat_plan .section_8 .see_all p {
+	color: #747474;
+	font-size: 31px;
+}
+
+.diat_plan .section_8 .accordion-button {
+	background-color: #1E1E1E;
+	color: #747474;
+}
+.diat_plan .section_8 .accordion-button:focus{
+	box-shadow: none;
+}
+.diat_plan .accordion-item {
+	color: #747474;
+	background-color: transparent;
+}
+
+.diat_plan .section_8 .accordion-button li,
+.diat_plan .section_8 .accordion-body {
+	font-size: 31px;
+	font-weight: 600;
+}
+
+.diat_plan .section_8 .accordion-button::after {
+	filter: invert(51%) sepia(7%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(88%);
+}
+
+.diat_plan .section_8 .faq h2 {
+	color: #FFFFFF;
+}
+
+footer {
+	background-color: #000000;
+	padding: 50px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #747474;
+}
+
+footer ul li {
+	list-style: none;
+	padding-bottom: 10px;
+	font-size: 17px;
+}
+
+footer .social_media {
+	text-align: right;
+}
+
+footer .social_media ul li {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+footer .social_media ul li i {
+	color: #000;
+	padding-top: 6px;
+}
+
+@media (max-width:1200px) {
+	.diat_plan .section_2 {
+		text-align: center;
+	}
+
+	.diat_plan .section_2 .delicious span {
+		left: 18%;
+	}
+
+	.diat_plan .section_2 .fruit {
+		left: 46%;
+		width: 50%;
+		top: 64%;
+	}
+
+	.diat_plan .section_4 .sub_plan {
+		display: flex;
+	}
+}
+
+@media (max-width:992px) {
+	h3 {
+		font-size: 30px;
+	}
+
+	.diat_plan .countdown {
+		width: 60%;
+	}
+
+	.diat_plan .section_5 .benefits_right {
+		text-align: center;
+	}
+
+	.diat_plan .section_4 .price_box button,
+	.diat_plan .section_4 .price_box2 button,
+	.diat_plan .section_4 .price_box,
+	.diat_plan .section_4 .price_box2 {
+		width: 100%;
+	}
+
+	.diat_plan .section_2 .fruit {
+		top: 72%;
+		width: 190px;
+	}
+
+	.diat_plan .countdown-timer {
+		width: 100%;
+	}
+
+	.diat_plan .section_5 .benefits_right img {
+		width: 100%;
+	}
+
+	.diat_plan .section_2 .sec2_text button {
+		margin: 0px 0px 12px 0px;
+	}
+
+	.diat_plan .section_2 img.pro {
+		width: 175px;
+	}
+
+	.diat_plan .section_2 img.delicious {
+		width: 150px;
+	}
+
+	.diat_plan .section_6 h4 {
+		margin-top: 30px;
+		font-size: 30px;
+	}
+
+	.diat_plan .section_7 h2 {
+		font-size: 30px;
+	}
+
+	.diat_plan .section_7 p {
+		font-size: 20px;
+	}
+
+	.diat_plan .section_4 .price_box h4,
+	.diat_plan .section_4 .price_box2 h4 {
+		font-size: 1.5rem;
+	}
+
+	.diat_plan .section_3 .sec3_text p {
+		font-size: 20px;
+	}
+
+	.diat_plan .countdown-timer h3,
+	.diat_plan .countdown-timer p {
+		font-size: 12px;
+	}
+
+	.diat_plan .countdown-timer {
+		padding: 20px 0px;
+	}
+
+	.diat_plan .hero-content h2 {
+		font-size: 30px;
+	}
+
+	.diat_plan .countdown {
+		width: 68%;
+	}
+
+	.diat_plan .section_8 .accordion-button li {
+		font-size: 20px;
+	}
+
+	.diat_plan .section_8 h2,
+	.diat_plan .section_8 p {
+		text-align: center;
+	}
+
+	.diat_plan .section_7 .apps,
+	.diat_plan .hero-content h2 {
+		text-align: center;
+	}
+
+	.diat_plan .hero_images img {
+		width: 100%;
+		margin: auto;
+	}
+
+	.diat_plan .hero_list {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.diat_plan .countdown_text {
+		text-align: center !important;
+	}
+
+	#slick-slide10>div>div.col-md-6 {
+		width: 100%;
+	}
+
+	.diat_plan .hero-content .join_now {
+		text-align: center;
+	}
+
+	.diat_plan .section_4 .price_box button {
+		margin-top: 50px;
+	}
+
+	footer,
+	footer .social_media {
+		text-align: center;
+	}
+
+	footer .social_media ul {
+		justify-content: center !important;
+	}
+
+	footer ul {
+		padding-left: 0;
+	}
+}
+
+@media (max-width:768px) {
+
+	.diat_plan .section_4 .price_box2 a,
+	.diat_plan .section_4 .price_box a {
+		padding: 10px 55px;
+	}
+
+	.diat_plan .section_2 .sec2_btn,
+	.diat_plan .section_2 .sec2_btn1 {
+		padding: 10px 35px;
+	}
+}
